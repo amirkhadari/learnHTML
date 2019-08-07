@@ -1,0 +1,52 @@
+.header, .footer{
+min-height: 50px;
+background-color: skyblue;
+}
+.sidebar{
+  display: inline-block;
+  background-color: green;
+  /* padding: 15%; */
+  width: calc(30% - 20px);
+  min-height: 520px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+.sub-content{
+  display: inline-block;
+  min-height: 500px;
+  width: 70%;
+}
+.main-content{
+  /* padding: 5%; */
+  background-color: orange;
+  min-height: 350px;
+  margin-bottom: 20px;
+}
+.extra-content{
+  /* padding: 2.5%; */
+  background-color: #dddddd;
+  min-height: 150px;
+}
+.content{
+  font-size: 0;
+}
+.header{
+  margin-bottom: 10px;
+}
+.footer{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .sub-content, .sidebar {
+  	width: 100%;
+  }
+}
+.content *{
+  font-size: 14px;
+}
+h3{
+  margin-top: 0;
+  padding: 10px;
+  text-align: center;
+}
