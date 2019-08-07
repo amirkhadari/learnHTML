@@ -1,0 +1,43 @@
+.content{
+  background-color: red;
+}
+.msg-inner{
+  background-color: #700a13;
+  min-height: 200px;
+}
+.textsection{
+  display: inline-block;
+}
+.image{
+  display: inline-block;
+}
+.main-content{
+  min-height: 350px;
+}
+.msg {
+  display: inline-block;
+  width:33.33%;
+  font-size: 14px;
+  padding-right: 6px;
+}
+.msg-3{
+  padding-right: 0;
+}
+.main-text, .sub-text, .heading, .desc{
+  padding: 0 20px;
+  color: #e8e1e2;
+}
+.main-text, .heading{
+  padding-top: 20px;
+}
+.sub-content{
+  font-size: 0px;
+}
+.textsection{
+  width: 70%;
+}
+* {
+   -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
