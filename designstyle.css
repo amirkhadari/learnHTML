@@ -1,0 +1,104 @@
+.logo, .navigation-menu, .left, .right{
+  display: inline-block;
+}
+.navigation-menu{
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+.left{
+  width:600px;
+}
+.main-content, input, button {
+  background-color: orange;
+}
+.main-content{
+  padding-right: 460px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+li{
+  display: inline;
+  font-size: 14px;
+  padding-left: 10px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+}
+.logo{
+  width: 20%;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+.navigation-menu{
+  width: 79%;
+  text-align: right;
+}
+.header{
+  font-size: 0px;
+  min-height: 100px;
+  background-color: #dddddd;
+  padding-top: 10px;
+}
+.footer-menu{
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  top: 40px;
+}
+.page-content{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.banner{
+  min-height: 200px;
+  background-color: skyblue;
+}
+.text {
+  text-align: center;
+  padding-top: 55px;
+}
+.bwd{
+  position: absolute;
+  top: 210px;
+  left: 50px;
+}
+.fwd{
+  position: absolute;
+  top: 210px;
+  right: 50px;
+}
+.footer{
+  min-height: 100px;
+  background-color: #dddddd;
+}
+.extra-content{
+  min-height: 80px;
+  background-color: lightgreen;
+}
+.sub-content{
+  padding-top: 10px;
+}
+.form{
+  padding-left:30px;
+}
+.mainbox{
+	position: absolute;
+	min-height: 335px;
+	background-color: aqua;
+	top: 330px;
+	padding-right: 450px;
+}
+.box{
+	padding-left: 130px;
+}
+.subbox{
+	position: absolute;
+	min-height: 250px;
+	background-color: darkgreen;
+	padding-right: 380px;
+	top: 375px;
+	left: 30px;
+}
