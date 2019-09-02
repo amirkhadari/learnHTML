@@ -1,0 +1,20 @@
+.rhombus{
+  height: 200px;
+  width: 200px;
+  transform: rotate(45deg);
+  background: #1e3f5c;
+  position: relative;
+  left: calc(50% - 100px);
+  top: calc(50% - 200px);
+}
+body{
+  height: 100vh;
+  margin: 0;
+}
+.small{
+  height: 50px;
+  width: 50px;
+  background: #f58220;
+  position: absolute;
+  margin: 199px;
+}

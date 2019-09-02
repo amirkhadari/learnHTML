@@ -1,0 +1,41 @@
+.center{
+  border-radius: 80px;
+  background: #e2ac37;
+  height: 120px;
+  width: 120px;
+  position: relative;
+  left: calc(50% - 60px);
+  top: calc(50% - 60px);
+}
+body{
+  height: 100vh;
+  margin: 0;
+}
+.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #444;
+  position: absolute;
+  margin: -18px;
+}
+.circle1{
+  right: 100%;
+  bottom: 100%;
+  border-radius: 40px 40px 0 40px;
+}
+.circle2{
+  left: 100%;
+  bottom: 100%;
+  border-radius: 40px 40px 40px 0;
+}
+.circle3{
+  left: 100%;
+  top: 100%;
+  border-radius: 0px 40px 40px 40px;
+}
+.circle4{
+  right: 100%;
+  top: 100%;
+  border-radius: 40px 0px 40px 40px;
+}

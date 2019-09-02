@@ -1,0 +1,280 @@
+.navigation-menu li{
+  float: left;
+  list-style-type: none;
+  padding: 0 10px;
+
+}
+.navigation-menu{
+  float: right;
+  margin-top: 35px;
+}
+.navigation-menu li a{
+  display: block;
+  padding: 5px;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+.navigation-menu li a.active{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+  position: relative;
+}
+.navigation-menu li a.active::before {
+	content: "";
+	position: absolute;
+	border-color: black transparent transparent;
+	border-width: 5px;
+	border-style: solid;
+	top: 0;
+	left: calc(50% - 5px);
+}
+.header{
+  background: #f57c5d;
+}
+body{
+  margin: 0
+}
+.banner .banner-inner .cover{
+  position: relative;
+}
+.banner .banner-inner .cover .banner-text, .testimonials .testimonials-inner .test-text{
+  position: absolute;
+  top: 50%;
+  width: 700px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.banner .banner-inner .cover .banner-text .rhombus{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+}
+.banner .banner-inner .cover:before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner .banner-inner .cover .banner-text .rhombus::before {
+	height: 2px;
+	width: 400px;
+	background: white;
+	position: absolute;
+	right: 140%;
+	content: "";
+	top: 48%;
+}
+.banner .banner-inner .cover .banner-text .rhombus::after {
+	height: 2px;
+	width: 400px;
+	background: white;
+	position: absolute;
+	left: 140%;
+	content: "";
+	top: 48%;
+}
+.banner .banner-inner .cover .banner-text .divider{
+  margin: 20px;
+}
+.banner .banner-inner .cover .banner-text .main-text{
+  font-weight: bold;
+  font-size: 30px;
+
+}
+.banner .banner-inner .cover .banner-text .rhombus .small{
+  height: 100%;
+  width: 100%;
+  transform: rotate(45deg);
+  background: white;
+}
+.banner .banner-inner .cover .banner-text .hrline{
+  color: black;
+}
+.cover img{
+  width: 100%;
+}
+.welcome-site .welcome-site-items, .services .services-inner,
+ .advantages-capabilities .advantages-capabilities-inner{
+  margin: 60px 0;
+}
+.welcome-site-img img{
+  width: 100%;
+}
+.welcome-site .welcome-site-items .welcome-site-left, .services{
+  position: relative;
+}
+.line::before {
+  content: "";
+	height: 5px;
+	width: 68px;
+	background: #fab803;
+	position: absolute;
+	top: 50px;
+}
+.line::after {
+  content: "";
+	height: 5px;
+	width: 246px;
+	background: #f6e386;
+	position: absolute;
+	top: 50px;
+	left: 68px;
+}
+.welcome-site .welcome-site-items .welcome-site-left .welcome-site-text{
+  margin-top: 60px;
+}
+.welcome-site .welcome-site-items .welcome-site-left .button .Read-More,
+ .our-advantages-button .Read-More, .our-capabilities-button .Read-More{
+  background-color: #ebac0d;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+.services{
+  background: #f2f2f2;
+}
+.line2::before, .line-3::before, .line-4::before {
+	content: "";
+	height: 5px;
+	width: 50px;
+	background: #f8bf0c;
+	position: absolute;
+}
+.line2::after, .line-3::after, .line-4::after {
+	content: "";
+	height: 5px;
+	width: 157px;
+	background: #f8e18c;
+	position: absolute;
+	left: 156px;
+}
+.line-3::after, .line-4::after{
+  content: "";
+	height: 5px;
+	width: 190px;
+	background: #f8e18c;
+	position: absolute;
+	left: 50px;
+}
+.services .services-items{
+  margin: 45px 0;
+}
+.services .services-items .accounting-services .accounting-services-no {
+	font-size: 58px;
+	color: #f1bc0d;
+	font-weight: bold;
+	position: absolute;
+	top: -11px;
+	left: 19px;
+}
+.services .services-items .bookkeeping .bookkeeping-no {
+	font-size: 58px;
+	color: #f1bc0d;
+	font-weight: bold;
+	position: absolute;
+	top: -11px;
+	left: 19px;
+}
+.services .services-items .accounting-software .accounting-software-no {
+	font-size: 58px;
+	color: #f1bc0d;
+	font-weight: bold;
+	position: absolute;
+	top: -11px;
+	left: 19px;
+}
+.services h5, .our-advantages h5, .our-capabilities h5{
+  font-weight: bold;
+}
+.accounting-services-points, .bookkeeping-points, .accounting-software-points,
+.our-advantages span, .our-capabilities span{
+  font-size: 12px;
+}
+span{
+  opacity: 0.5;
+}
+.our-advantages-items img{
+  width: 60%;
+  margin: 10px;
+}
+.our-capabilities-items img{
+  width: 100%;
+}
+.our-advantages-items .our-advantages-item-1, .our-advantages-items .our-advantages-item-2,
+.our-capabilities-items .our-capabilities-item-1, .our-capabilities-items .our-capabilities-item-2{
+  margin: 50px 0;
+}
+.testimonials .testimonials-banner{
+  position: relative;
+}
+.testimonials .testimonials-banner img{
+  width: 100%;
+}
+.testimonials .testimonials-inner .testimonials-banner::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.testimonials .testimonials-inner .test-text{
+  font-size: 25px;
+  font-weight: bold;
+}
+.clientname{
+  font-size: 15px;
+}
+.clientname::after {
+	content: "";
+	height: 2px;
+	width: 224px;
+	background: white;
+	position: absolute;
+	left: 68px;
+	top: 127px;
+}
+.clientname::before {
+	content: "";
+	height: 2px;
+	width: 224px;
+	background: white;
+	position: absolute;
+	right: 68px;
+	top: 127px;
+}
+.message::before {
+	content: "";
+	height: 3px;
+	width: 400px;
+	background: #d8b23d;
+	position: absolute;
+	left: -100px;
+	bottom: 167px;
+}
+.message::after {
+	content: "";
+	height: 3px;
+	width: 400px;
+	background: #e9ae07;
+	position: absolute;
+	right: -73px;
+	bottom: 167px;
+}
